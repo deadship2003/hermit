@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hermit.ga/"/>
-  <updated>2017-04-03T05:11:16.687Z</updated>
+  <updated>2017-04-04T05:17:36.564Z</updated>
   <id>http://hermit.ga/</id>
   
   <author>
@@ -16,11 +16,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Test synchronization via github.</title>
+    <link href="http://hermit.ga/2017/04/04/Test-synchronization-via-github/"/>
+    <id>http://hermit.ga/2017/04/04/Test-synchronization-via-github/</id>
+    <published>2017-04-04T05:07:21.000Z</published>
+    <updated>2017-04-04T05:17:36.564Z</updated>
+    
+    <content type="html"><![CDATA[<p>Test synchronization with github.</p>
+<p>A, New a repo in github;<br>B, Locally pull the repo;<br>C, Copy the files to be synchronized;<br>D, Git add . &amp;&amp; Git commit &amp;&amp; Git push.</p>
+<p>Then anywhere:</p>
+<p>A, Git clone the repo;<br>B, Cd the repo and begin edition jobs;<br>C, Git add . &amp;&amp; Git commit &amp;&amp; Git push to update the repository.</p>
+<p>For convinience I can build the repo on My own VPS for other synchronization.</p>
+<p>Actually an P2P synchronization tool Resilio Sync.</p>
+<p>I am going to deploy it on my VPS. </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Test synchronization with github.&lt;/p&gt;
+&lt;p&gt;A, New a repo in github;&lt;br&gt;B, Locally pull the repo;&lt;br&gt;C, Copy the files to be synchronized;&lt;b
+    
+    </summary>
+    
+    
+      <category term="Git" scheme="http://hermit.ga/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello,World!</title>
     <link href="http://hermit.ga/2017/04/03/Hello-World/"/>
     <id>http://hermit.ga/2017/04/03/Hello-World/</id>
     <published>2017-04-03T04:23:14.000Z</published>
-    <updated>2017-04-03T05:11:16.687Z</updated>
+    <updated>2017-04-04T05:02:31.994Z</updated>
     
     <content type="html"><![CDATA[<p>Hello,World!</p>
 <p>This is my first Hexo blog,which is hosted on my vps,driven by the hexo blog frame and auto updated with git-hooks.</p>
